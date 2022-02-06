@@ -62,3 +62,7 @@ the non-indented lines are the original line of code passed into the parser. The
 > M30 (End program) ;
         M 30
 ```
+
+## TODO
+[] Implement parsing for if statements used by some machines (HAAS)
+[] Clean-up
