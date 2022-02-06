@@ -64,5 +64,5 @@ the non-indented lines are the original line of code passed into the parser. The
 ```
 
 ## TODO
-[] Implement parsing for if statements used by some machines (HAAS)
-[] Clean-up
+[ ] Implement parsing for if statements used by some machines (HAAS)
+[ ] Clean-up
