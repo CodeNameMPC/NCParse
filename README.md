@@ -1,8 +1,15 @@
-# GCodeParser
+# NCParse (Formally GCodeParser)
 Python library to parse GCode into its components
 
 ## About
 GCode Parser was originally packed into my newest project [CNClingish](https://github.com/CodeNameMPC/CNClingish). However, I thought it would be just as useful by itself. 
+
+## Install
+Install via pip
+```
+python3 -m pip install NCParse
+```
+[pip Page](https://pypi.org/project/NCParse/)
 
 ## Code Sample
 ```python

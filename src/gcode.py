@@ -6,7 +6,7 @@ https://github.com/Nikolay-Kha/PyCNC/blob/master/cnc/gcode.py
 from operator import truediv
 import re
 from typing import Type
-from gcodesegment import GCodeSegment
+from src.gcodesegment import GCodeSegment
 
 # extract letter-digit pairs
 g_pattern = re.compile('([A-Z])([-+]?[0-9.]+)')
