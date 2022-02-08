@@ -1,8 +1,0 @@
-setup.py
-setup.cfg
-__init__.py
-pyproject.toml
-dist/*
-.DS_Store
-.gitignore
-NCParse.egg-info
