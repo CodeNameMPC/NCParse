@@ -5,8 +5,8 @@ https://github.com/Nikolay-Kha/PyCNC/blob/master/cnc/gcode.py
 
 from operator import truediv
 import re
-from typing import Type
-from src.gcodesegment import GCodeSegment
+import gcodesegment
+
 
 # extract letter-digit pairs
 g_pattern = re.compile('([A-Z])([-+]?[0-9.]+)')
@@ -50,9 +50,9 @@ class GCode(object):
                                 else:
                                     break
 
-                        self.segments.append(GCodeSegment(m[0][0],m[0][1], x, y, z, segments[j]))
+                        self.segments.append(gcodesegment.GCodeSegment(m[0][0],m[0][1], x, y, z, segments[j]))
             except TypeError as e:
-                print (f'ERROR PARSING SEGMENT {s} :: {e}')
+                print (f'ERROR PARSING SEGMENT {segments[k]} :: {e}')
 
     @staticmethod
     def parse_line(line):
